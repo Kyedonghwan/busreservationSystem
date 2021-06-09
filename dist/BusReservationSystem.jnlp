@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BusReservationSystem.jnlp">
+  <information>
+    <title>BusReservationSystem</title>
+    <vendor>admin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BusReservationSystem.jar" size="61416" download="eager" />
+    <jar href="lib\ojdbc6.jar" size="2152137" download="eager" />
+  </resources>
+  <application-desc main-class="com.app.main.BusReservationSystem"  name="BusReservationSystem" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
